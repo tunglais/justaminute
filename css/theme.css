@@ -1,0 +1,146 @@
+html {
+    overflow-y: hidden;
+	max-height:667px;
+}
+
+body
+{
+    background-color:#FEFBF2;
+    width: 375px;
+    height: 667px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("../image/carousel1.png");
+    background-repeat: no-repeat;
+    background-size: 375px 667px;
+}
+
+
+@font-face {
+    font-family: 'specify';
+    src: url("../fonts/specifypersonal-expbold-webfont.woff") format('woff');
+    src: url("../fonts/specifypersonal-expbold-webfont.woff2") format('woff2');
+}
+
+
+.letsgo {
+    background-color: #C396CD;
+    border-radius: 19px;
+    cursor: pointer;
+    left: 60px;
+    position: absolute;
+    top: 538px;
+    width: 255px;
+
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+
+    letter-spacing: 0.00px;
+
+    padding-top: 17px;
+    padding-bottom: 17px;
+
+    text-align: center;
+    white-space: nowrap;
+}
+
+#backbutton {
+    position: absolute;
+    top: 28px;
+    left: 34px;
+    background-color: transparent;
+    object-fit: cover;
+
+}
+
+#heading1, #heading2{
+
+    background-color: transparent;
+    color: white;
+    font-family: 'specify';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    height: auto;
+    left: 61px;
+    letter-spacing: 0.00px;
+    line-height: 20px;
+    position: absolute;
+    text-align: center;
+    top: 330px;
+    white-space: nowrap;
+    width: auto;
+}
+
+#heading2{
+    top:360px;
+    left: 105px;
+}
+
+.text1, .text2{
+
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+
+    letter-spacing: 0;
+    line-height: 20px;
+    min-height: 125px;
+    min-width: 263px;
+    white-space: nowrap;
+    font-weight: 400;
+    font-size: 13px;
+
+    background-color: transparent;
+    height: auto;
+    left: 65px;
+    position: absolute;
+    text-align: center;
+    top: 398px;
+    width: auto;
+    opacity: 0.91;
+
+}
+
+.right1, .right2, .right3{
+
+    position: absolute;
+    top: 388px;
+    right: 34px;
+    background-color: transparent;
+    object-fit: cover;
+}
+
+.left4{
+    z-index: -3;
+}
+
+
+.right3{
+    z-index: -2;
+}
+
+
+.right2{
+    z-index: -1;
+}
+
+.right1{
+    z-index: 0;
+}
+
+.left2, .left3, .left4{
+
+    position: absolute;
+    top: 388px;
+    left: 34px;
+    background-color: transparent;
+    object-fit: cover;
+}
+
+.left3{
+    z-index: -2;
+}
+

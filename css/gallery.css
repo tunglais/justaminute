@@ -1,0 +1,19 @@
+body{
+    background-color:#FEFBF2;
+    width: 375px;
+    height: 667px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("../image/gallery.png");
+    background-repeat: no-repeat;
+    background-size: 375px 667px;
+}
+
+#exit{
+
+
+    left: 160px;
+    position: absolute;
+    top: 587px;
+
+}
